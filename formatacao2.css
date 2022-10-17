@@ -1,0 +1,657 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    background-color: white;
+    scroll-behavior: smooth;
+}
+
+body
+{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+header
+{
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    display: inline-block;
+}
+
+
+
+
+
+
+/* INFORMAÇÕES */
+
+.informacoes
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 8px;
+    margin: 3px 0px;
+}
+
+
+
+
+
+
+
+
+
+/* LOGO */
+
+.logo-imagem
+{
+    display: flex;
+    margin-left: 20px;
+}
+
+.logo-imagem img
+{
+    width: 110px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+/* BARRA DE PESQUISA */
+
+.divSearch
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input
+{
+    padding: 5px;
+    outline: none;
+
+}
+
+
+
+
+ .search-box
+{
+    background: rgb(243, 243, 243); 
+    border: 2px solid #1f7a1f;
+    height: 40px;
+    width: 540px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px;
+}
+
+ #search-text
+{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: #0a290a;
+    font-size: 16px;
+    line-height: 40px;
+    width: 480px;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder
+{
+    color: #437860;
+}
+
+.search-btn
+{
+    cursor: auto;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color:  rgb(243, 243, 243); */
+}
+
+
+
+/* LOGO DO INSTAGRAM */
+
+.logo-imagem2
+{
+    display: flex;
+    margin-right: 20px;
+    margin-top: 8px;
+}
+
+.logo-imagem2 img
+{
+    width: 50px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+/* MENU */
+
+.topicos
+{
+    position: relative;
+    background-color: #008037;
+    width: 100%;
+}
+
+.topicos li 
+{
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.topicos li a 
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    cursor: context-menu;
+}
+
+.topicos li a:hover
+{
+    background-color: rgb(243, 243, 243);
+    color: black;
+    transition: background 0.5s;
+}
+
+.topicos ul
+{
+    min-width: 200px;
+    position: absolute;
+    display: none;
+    background-color: #009942f3; 
+}
+
+.topicos ul li 
+{
+    display: block;
+    margin: 0px;
+    
+}
+
+.topicos ul li a
+{
+    font-family: Tahoma, Verdana, 'Segoe', sans-serif;
+    font-size: 15px; 
+    padding: 8px 20px;
+}
+
+.topicos li:hover ul
+{
+    display: block;
+}
+
+.riscos a img
+{
+    width: 25px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+
+
+/* SOBRE A ODS */
+
+.ODS
+{
+    width: 100%;
+    height: 500px;
+    padding: 1px;
+    background-color: rgb(255, 255, 255);
+}
+
+.ODS p
+{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+    font-family: Candara;
+}
+
+.btn
+{
+    margin-top: 160px;
+    padding: 10px 0px;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #06853d;
+    border: 2px solid #0e460e;
+    border-radius: 100px;
+    text-align: center;
+    transition: transform 0.5s;
+}
+
+.btn a
+{
+    text-decoration: none;
+    color: white;
+    padding: 10px 50px; 
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+}
+
+.btn:hover
+{
+    transform: scale(1.2)
+}
+
+
+
+
+
+
+
+
+/* PRIMEIRO CONTEÚDO */
+
+#titulo1
+{
+    padding: 35px;
+    background-color: #092834;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    color: white;
+}
+
+.conteudo1
+{
+    background-color: #F0F7D4;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', sans-serif;
+    font-size: 18px;
+    text-indent: 20px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.conteudo1 ul 
+{
+    margin: 0px 10px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.conteudo1 ul li img
+{
+    width: 500px;
+    border: 3px solid black;
+    border-radius: 40px;
+}
+
+.conteudo1 ul li p
+{
+    padding: 0px 60px;
+    text-align: justify;
+    font-family: arial;
+}
+
+
+
+
+
+/* SEGUNDO CONTEÚDO */
+
+#titulo2
+{
+    padding: 35px;
+    background-color: #092834;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    color: white;
+}
+
+.conteudo2
+{
+    background-color: #F0F7D4;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    text-indent: 20px;
+}
+
+.conteudo2 ul 
+{
+    margin: 0px 10px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.conteudo2 ul li img
+{
+    width: 500px;
+    height: 375px;
+    border: 3px solid black;
+    border-radius: 40px;
+}
+
+.conteudo2 ul li p
+{
+    padding: 0px 60px;
+    text-align: justify;
+    font-family: arial;
+}
+
+
+
+
+
+
+
+/* CONTEUDO 3 */
+
+#titulo3
+{
+    padding: 35px;
+    background-color: #092834;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    color: white;
+}
+
+.conteudo3
+{
+    background-color: #F0F7D4;
+    font-size: 18px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-indent: 20px;
+}
+
+.conteudo3 ul 
+{
+    margin: 0px 10px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.conteudo3 ul li img
+{
+    width: 500px;
+    border: 3px solid black;
+    border-radius: 40px;
+}
+
+.conteudo3 ul li p
+{
+    padding: 0px 60px;
+    text-align: justify;
+    font-family: arial;
+}
+
+
+
+
+
+
+
+
+
+
+/* LISTAS DE CONTEÚDO */
+
+/* SIDERURGICA */
+
+.o-que-sao ul
+{
+    list-style: none;
+    display: flex;
+    padding: 8px 0px;
+    position: relative;
+    cursor: context-menu;
+    background-color: #F0F7D4;
+    text-indent: 10px;
+}   
+
+.o-que-sao ul li
+{
+    margin-left: 5px;
+    
+}
+
+.o-que-sao ul li img
+{
+    width: 10px;
+    transition: 0.5s;
+}
+
+.o-que-sao ul li h3
+{
+    margin-left: 10px;
+}
+
+.o-que-sao ul li ul li
+{
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-indent: 10px;
+    font-size: 18px;
+    text-align: justify;
+    padding-right: 20px;
+}
+
+.o-que-sao ul li ul
+{
+    display: none;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-indent: 10px;
+}
+
+#o-que-sao2 ul li:hover ul 
+{
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-indent: 10px;
+    font-size: 18px;
+}
+
+#como-poluem2 ul li:hover ul 
+{
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-indent: 10px;
+} 
+
+#como-solucionar-o-problema2 ul li:hover ul 
+{
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-indent: 10px;
+} 
+
+/* OUTROS TÓPICOS */
+
+#dias-atuais ul li:hover ul 
+{
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-indent: 10px;
+} 
+
+#uso-da-areia ul li:hover ul 
+{
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-indent: 10px;
+} 
+
+#uso-do-carvao ul li:hover ul 
+{
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-indent: 10px;
+} 
+
+#uso-do-cal ul li:hover ul 
+{
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-indent: 10px;
+}
+
+#doencas-que-causam ul li:hover ul 
+{
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-indent: 10px;
+}
+
+
+
+
+
+/* METALURGICA */
+
+.o-que-sao ul
+{
+    list-style: none;
+    display: flex;
+    margin-left: 0px;
+    padding: 8px 0px;
+    position: relative;
+    cursor: context-menu;
+    background-color: #F0F7D4;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 15px;
+    
+}   
+
+.o-que-sao ul li
+{
+    margin-left: 0px;
+}
+
+.o-que-sao ul li img
+{
+    width: 10px;
+    transition: 0.5s;
+}
+
+.o-que-sao ul li h3
+{
+    margin-left: 10px;
+}
+
+.o-que-sao ul li p
+{
+    font-family: sans-serif;
+    line-height: 23px;
+    color: black;
+}
+
+.o-que-sao ul li ul li
+{
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-indent: 10px;
+}
+
+.o-que-sao ul li ul
+{
+    display: none;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-indent: 10px;
+}
+
+#o-que-sao1 ul li:hover ul
+{
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-indent: 10px;
+}
+
+#como-polue1 ul li:hover ul
+{
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-indent: 10px;
+}
+
+#como-solucionar-o-problema1 ul li:hover ul
+{
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-indent: 10px;
+    
+}
+
+
+
+
+
+
+/* FOOTER */
+
+footer
+{
+    background-color: rgb(43, 43, 43);
+    width: 100%;
+    height: 220px;
+    
+}
+
+footer img
+{
+    width: 100px;
+    
+}
+
+.mapa-do-site ul 
+{
+    text-align: center;
+    display: block;
+    padding: 16px;
+}
+
+.mapa-do-site ul li
+{
+    padding: 5px 0px;
+    list-style: none;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 20px;
+}

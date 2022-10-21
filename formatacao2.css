@@ -502,6 +502,8 @@ input
     text-indent: 10px;
 } 
 
+
+
 /* OUTROS TÓPICOS */
 
 #dias-atuais ul li:hover ul 
@@ -532,7 +534,7 @@ input
     text-indent: 10px;
 }
 
-#doencas-que-causam ul li:hover ul 
+#consequencias ul li:hover ul 
 {
     display: block;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
